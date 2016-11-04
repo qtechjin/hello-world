@@ -13,6 +13,8 @@ public class MainTest {
 		PrintStr pt = new PrintStr("wqe",2);
 		ProductProcess pp =  (new MainTest()).new ProductProcess(pro, 1);
 		new Thread().start();
+		SecondTest s = new SecondTest();
+		s.say("sdaaa");
 	}
 	
 	class ProductProcess implements Runnable {
